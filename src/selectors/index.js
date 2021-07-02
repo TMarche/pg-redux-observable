@@ -1,0 +1,1 @@
+export const getTruthiness = (state) => state.truthiness.get("value")

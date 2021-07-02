@@ -10,9 +10,9 @@ const INITIAL_STATE = Map({
 export default (state = INITIAL_STATE, action) => {
     switch( action.type ) {
         case SET_TRUE:
-            return state.set("value", true)
+            return state.set("value", "true")
         case SET_FALSE:
-            return state.set("value", false)
+            return state.set("value", "false")
         default:
             return state;
     }
